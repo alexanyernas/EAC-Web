@@ -6,7 +6,7 @@ import FooterSection from '@/components/Section/FooterSection.vue';
 
 <template>
     <v-layout>
-        <v-main>
+        <v-main class="bg-primary-color">
             <main-menu />
             <router-view />
             <footer-section />

@@ -15,7 +15,22 @@ export const routes: VueRouter.RouteRecordRaw[] = [
                 name: 'Home',
                 component: () => import('@/pages/Home/HomePage.vue'),
                 
+            },
+            {
+        
+                path: 'select',
+                name: 'SelectLession',
+                component: () => import('@/pages/Lession/SelectLessionPage.vue'),
+                
+            },
+            {
+        
+                path: 'lession',
+                name: 'CurrentLession',
+                component: () => import('@/pages/Lession/CurrentLessionPage.vue'),
+                
             }
+
         ]
     },
     {

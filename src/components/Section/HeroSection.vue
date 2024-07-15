@@ -1,8 +1,11 @@
 <script setup lang="ts">
 // Import Vue Functions
+import { useRouter } from 'vue-router';
 
 // Import Assets
 import bgHeroMin from '@/assets/images/bg-hero-min.png';
+
+const router = useRouter();
 </script>
 
 <template>
@@ -16,6 +19,9 @@ import bgHeroMin from '@/assets/images/bg-hero-min.png';
                     size="large"
                     color="#84FFFF"
                     text="Iniciar capacitación"
+                    @click="router.push({
+                        name: 'SelectLession'
+                    })"
                 />
             </v-col>
             <v-col cols="12" lg="4" class="pa-0">

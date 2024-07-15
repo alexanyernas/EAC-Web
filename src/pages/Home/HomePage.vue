@@ -8,7 +8,7 @@ import WorkWithUsSection from '@/components/Section/WorkWithUsSection.vue';
 
 <template>
     <hero-section />
-    <statistics-section />
-    <benefits-section />
-    <work-with-us-section />
+    <statistics-section class="mb-12"/>
+    <benefits-section class="mb-12"/>
+    <work-with-us-section class="mb-12"/>
 </template>
