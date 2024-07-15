@@ -7,7 +7,7 @@ export const routes: VueRouter.RouteRecordRaw[] = [
         redirect: {
             name: 'Home'
         },
-        component: () => import ('@/layouts/HomeLayout.vue'),
+        component: () => import ('@/layouts/MainLayout.vue'),
         children: [
             {
         

@@ -1,19 +1,16 @@
 @font-face {
-    font-family: 'Poppins-Regular';
-    src: url('@/assets/fonts/Poppins-Regular.ttf') format('truetype');
+    font-family: 'Montserrat-Regular';
+    src: url('@/assets/fonts/Montserrat-Regular.ttf') format('truetype');
 }
 
 :root {
-    --primary-color: #49BBBD;
-    --secondary-color: #F48C06;
-    --tertiary-color: #9DCCFF;
+    --primary-color: #311B92;
+    --secondary-color: #84FFFF;
     --white-color: #FFF;
-    --dark-blue-color: #252641;
-    --grey-color: #696984;
 }
 
 * {
-    font-family: Poppins-Regular;
+    font-family: Montserrat-Regular;
 }
 
 *::-webkit-scrollbar {
@@ -21,7 +18,7 @@
 }
   
 *::-webkit-scrollbar-track {
-    background: var(--white-color);
+    background: var(--secondary-color);
 }
   
 *::-webkit-scrollbar-thumb {
@@ -33,22 +30,14 @@
     background-color: var(--primary-color);
 }
 
-.bg-tertiary-color {
-    background-color: var(--tertiary-color);
-}
-
-.bg-dark-blue {
-    background-color: var(--dark-blue-color);
+.bg-secondary-color {
+    background-color: var(--secondary-color);
 }
 
 .primary-color {
-    color: var(--primary-color)
+    color: var(--primary-color);
 }
 
-.grey-color {
-    color: var(--grey-color)
-}
-
-.dark-blue-color {
-    color: var(--dark-blue-color)
+.secondary-color {
+    color: var(--secondary-color);
 }
