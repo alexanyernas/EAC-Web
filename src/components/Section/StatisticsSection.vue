@@ -1,6 +1,6 @@
 <template>
     <div class="bg-primary-color">
-        <v-container class="container_statistics py-8">
+        <v-container class="container_statistics bg-tertiary-color py-8">
             <v-row justify="space-evenly">
                 <v-col cols="12" lg="2">
                     <p class="font-weight-bold secondary-color text-h5 d-flex align-center">
@@ -27,7 +27,5 @@
 <style scoped>
 .container_statistics {
     border-radius: 20px;
-    background: rgba(24, 13, 72, 0.20);
-    backdrop-filter: blur(13.591408729553223px);
 }
 </style>

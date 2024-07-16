@@ -4,8 +4,8 @@ import { LessionItemModel } from '@/models';
 export const initialStateLessionItem = <LessionItemModel>{
     id: '0',
     title: '',
+    description: '',
     color: '',
-    value: '',
     video: '',
     content: '',
     duration: 0

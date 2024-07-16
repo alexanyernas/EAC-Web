@@ -9,7 +9,7 @@ const { mdAndDown } = useDisplay();
 </script>
 
 <template>
-    <v-app-bar elevation="0" color="#311B92" class="pt-2">
+    <v-app-bar elevation="0" color="#180D48" class="pt-2">
         <v-row justify="space-between" align="center">
             <v-col cols="2">
                 <v-img v-if="!mdAndDown" :src="logo" alt="Logo" height="60" />

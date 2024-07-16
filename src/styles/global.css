@@ -4,9 +4,12 @@
 }
 
 :root {
-    --primary-color: #311B92;
+    --primary-color: #180D48;
     --secondary-color: #84FFFF;
+    --tertiary-color: #311B92;
     --white-color: #FFF;
+    --purple-color: #651FFF;
+    --dark: rgba(0, 0, 0, 0.50);
 }
 
 * {
@@ -34,10 +37,26 @@
     background-color: var(--secondary-color);
 }
 
+.bg-tertiary-color {
+    background-color: var(--tertiary-color);
+}
+
+.bg-dark {
+    background-color: var(--dark);
+}
+
 .primary-color {
     color: var(--primary-color);
 }
 
 .secondary-color {
     color: var(--secondary-color);
+}
+
+.tertiary-color {
+    color: var(--tertiary-color);
+}
+
+.purple-color {
+    color: var(--purple-color);
 }
