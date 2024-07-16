@@ -3,7 +3,8 @@
 import { useRouter } from 'vue-router';
 
 // Import Assets
-import bgHeroMin from '@/assets/images/bg-hero-min.png';
+import bgHeroPng from '@/assets/images/bg-hero-min.png';
+import bgHeroWebp from '@/assets/images/bg-hero-min.webp';
 
 const router = useRouter();
 </script>
@@ -25,14 +26,9 @@ const router = useRouter();
                 />
             </v-col>
             <v-col cols="12" lg="4" class="pa-0">
-                <v-img :lazy-src="bgHeroMin" :src="bgHeroMin" alt="bgHeroMin" class="image-hero">
-                    <template v-slot:placeholder>
-                        <div class="d-flex align-center justify-center fill-height">
-                            <v-progress-circular
-                                color="grey-lighten-4"
-                                indeterminate
-                            ></v-progress-circular>
-                        </div>
+                <v-img :src="bgHeroPng" alt="bgHeroPng" class="image-hero">
+                    <template #sources>
+                        <source :srcset="bgHeroWebp" />
                     </template>
                 </v-img>
             </v-col>

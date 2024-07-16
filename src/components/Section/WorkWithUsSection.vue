@@ -1,6 +1,7 @@
 <script setup lang="ts">
 // Import Assets
 import fourPng from '@/assets/images/4-min.png';
+import fourWebp from '@/assets/images/4-min.webp';
 </script>
 
 <template>
@@ -12,7 +13,11 @@ import fourPng from '@/assets/images/4-min.png';
                     <p>Nuestro propósito es ayudarte a mejorar tu calidad de aprendizaje gracias a la IA, ayúdanos para continuar con nuestro objetivo.</p>
                 </v-col>
                 <v-col cols="12" lg="6">
-                    <v-img :src="fourPng" alt="fourPng" cover />
+                    <v-img :src="fourPng" alt="fourPng" cover>
+                        <template #sources>
+                            <source :srcset="fourWebp" />
+                        </template>
+                    </v-img>
                 </v-col>
             </v-row>
         </v-container>
