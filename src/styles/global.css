@@ -1,19 +1,19 @@
 @font-face {
-    font-family: 'Poppins-Regular';
-    src: url('@/assets/fonts/Poppins-Regular.ttf') format('truetype');
+    font-family: 'Montserrat-Regular';
+    src: url('@/assets/fonts/Montserrat-Regular.ttf') format('truetype');
 }
 
 :root {
-    --primary-color: #49BBBD;
-    --secondary-color: #F48C06;
-    --tertiary-color: #9DCCFF;
+    --primary-color: #180D48;
+    --secondary-color: #84FFFF;
+    --tertiary-color: #311B92;
     --white-color: #FFF;
-    --dark-blue-color: #252641;
-    --grey-color: #696984;
+    --purple-color: #651FFF;
+    --dark: rgba(0, 0, 0, 0.50);
 }
 
 * {
-    font-family: Poppins-Regular;
+    font-family: Montserrat-Regular;
 }
 
 *::-webkit-scrollbar {
@@ -21,7 +21,7 @@
 }
   
 *::-webkit-scrollbar-track {
-    background: var(--white-color);
+    background: var(--secondary-color);
 }
   
 *::-webkit-scrollbar-thumb {
@@ -33,22 +33,30 @@
     background-color: var(--primary-color);
 }
 
+.bg-secondary-color {
+    background-color: var(--secondary-color);
+}
+
 .bg-tertiary-color {
     background-color: var(--tertiary-color);
 }
 
-.bg-dark-blue {
-    background-color: var(--dark-blue-color);
+.bg-dark {
+    background-color: var(--dark);
 }
 
 .primary-color {
-    color: var(--primary-color)
+    color: var(--primary-color);
 }
 
-.grey-color {
-    color: var(--grey-color)
+.secondary-color {
+    color: var(--secondary-color);
 }
 
-.dark-blue-color {
-    color: var(--dark-blue-color)
+.tertiary-color {
+    color: var(--tertiary-color);
+}
+
+.purple-color {
+    color: var(--purple-color);
 }
