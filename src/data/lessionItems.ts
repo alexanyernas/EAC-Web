@@ -7,7 +7,7 @@ export const lessionItems = <LessionItemModel[]>[
         color: '#49BBBD',
         title: 'Introducción a los ChatBots Educativos',
         description: 'Presentación de qué son los chatbots educativos y su importancia en el aprendizaje interactivo.',
-        video: '<iframe width="100%" height="450" src="https://www.youtube.com/embed/ADi9NNqA3ZM?si=XKSV97qFt90Xj6yx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
+        video: '<iframe width="100%" height="500" src="https://www.youtube.com/embed/ADi9NNqA3ZM?si=XKSV97qFt90Xj6yx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
         content: [
             "<p class='mb-6 text-uppercase secondary-color'><strong>01. ¿Qué son los chatbots educativos?</strong></p>",
             "<p class='mb-6'>Los chatbots educativos son programas informáticos diseñados para simular conversaciones humanas y proporcionar asistencia en contextos educativos. Utilizan inteligencia artificial (IA) para interactuar con los usuarios de manera natural y fluida, facilitando el acceso a información, recursos de aprendizaje y apoyo educativo. A través del procesamiento del lenguaje natural (PLN), estos chatbots pueden comprender y responder a una amplia variedad de preguntas y solicitudes, adaptándose a las necesidades individuales de los estudiantes.</p>",
@@ -22,7 +22,6 @@ export const lessionItems = <LessionItemModel[]>[
         color: '#F48C06',
         title: 'Fundamentos del Aprendizaje Significativo',
         description: 'Explicación de los principios del aprendizaje significativo y cómo se aplican en la interacción con chatbots.',
-        video: '',
         content: [
             "<p class='mb-6 text-uppercase secondary-color'><strong>01. ¿Qué es el aprendizaje significativo?</strong></p>",
             "<p class='mb-6'>El aprendizaje significativo es un concepto desarrollado por el psicólogo David Ausubel en la década de 1960. Este tipo de aprendizaje ocurre cuando los nuevos conocimientos se relacionan de manera sustancial y no arbitraria con lo que el estudiante ya sabe. A diferencia del aprendizaje memorístico, que se basa en la repetición y la memorización sin comprender, el aprendizaje significativo implica la comprensión profunda y la integración de nueva información en las estructuras cognitivas existentes del estudiante.</p>",
@@ -44,7 +43,7 @@ export const lessionItems = <LessionItemModel[]>[
         color: '#49BBBD',
         title: 'Creación de Prompts Efectivos',
         description: 'Guía paso a paso sobre cómo redactar prompts claros y específicos para obtener respuestas útiles de los chatbots.',
-        video: '<iframe width="100%" height="450" src="https://www.youtube.com/embed/rzKNA5i-JKc?si=84URRtfJLb_agXIH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
+        video: '<iframe width="100%" height="500" src="https://www.youtube.com/embed/rzKNA5i-JKc?si=84URRtfJLb_agXIH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
         content: [
             "<p class='mb-6 text-uppercase secondary-color'><strong>Creación de Prompts Efectivos</strong></p>",
             "<p class='mb-6'>La creación de prompts efectivos es crucial para obtener respuestas útiles y relevantes de los chatbots educativos. A continuación, se presenta una guía paso a paso para redactar prompts claros y específicos:</p>",
@@ -66,17 +65,66 @@ export const lessionItems = <LessionItemModel[]>[
         color: '#F48C06',
         title: 'Tipos de Interacciones con ChatBots',
         description: 'Exploración de diferentes tipos de interacciones que se pueden tener con chatbots educativos (por ejemplo, preguntas abiertas, múltiple opción, seguimiento de diálogo).',
+        content: [
+            "<p class='mb-6 text-uppercase secondary-color'><strong>Tipos de Interacciones con ChatBots</strong></p>",
+            "<p class='mb-6'>Los chatbots educativos pueden facilitar diferentes tipos de interacciones, cada una con sus propias características y beneficios. A continuación, se presentan algunos de los tipos de interacciones más comunes:</p>",
+            "<p><strong>Preguntas abiertas:</strong> Este tipo de interacción permite a los estudiantes responder de manera libre y detallada, promoviendo el pensamiento crítico y la reflexión.</li>",
+            "<p class='mb-6'><em>Ejemplo:</em> '¿Qué opinas sobre el impacto del cambio climático en tu comunidad?'</p>",
+            "<p><strong>Preguntas de opción múltiple:</strong> Proporciona varias opciones de respuesta, ayudando a los estudiantes a identificar la respuesta correcta entre varias alternativas.</li>",
+            "<p class='mb-6'><em>Ejemplo:</em> '¿Cuál de las siguientes opciones es una característica de los mamíferos? a) Ponen huevos, b) Tienen plumas, c) Amamantan a sus crías, d) Respiran por branquias.'</p>",
+            "<p><strong>Seguimiento de diálogo:</strong> Permite una conversación continua, donde el chatbot hace preguntas adicionales basadas en las respuestas anteriores del estudiante, profundizando en el tema y ajustándose al ritmo de aprendizaje del estudiante.</li>",
+            "<p class='mb-6'><em>Ejemplo:</em> '¿Puedes describir el proceso de fotosíntesis?' (Respuesta del estudiante) 'Interesante, ¿puedes también mencionar dónde ocurre este proceso en la planta?'</p>",
+            "<p><strong>Ejercicios interactivos:</strong> Incluyen actividades como juegos, cuestionarios y simulaciones que hacen que el aprendizaje sea más dinámico y atractivo.</li>",
+            "<p class='mb-6'><em>Ejemplo:</em> 'Vamos a resolver un problema matemático juntos. ¿Cuánto es 7 x 8?'</p>",
+            "<p><strong>Retroalimentación inmediata:</strong> El chatbot proporciona retroalimentación en tiempo real sobre las respuestas de los estudiantes, ayudándoles a corregir errores y mejorar su comprensión.</li>",
+            "<p class='mb-6'><em>Ejemplo:</em> 'Tu respuesta es correcta. La capital de Francia es París. ¿Sabías que también es conocida como la 'Ciudad de la Luz' debido a su papel en la Era de la Ilustración?'</p>",
+            "<p><strong>Acceso a recursos adicionales:</strong> El chatbot puede recomendar libros, artículos, videos y otros recursos educativos basados en las respuestas y necesidades de los estudiantes.</li>",
+            "<p class='mb-6'><em>Ejemplo:</em> 'Parece que te interesa mucho la astronomía. Aquí tienes un enlace a un video interesante sobre la formación de las estrellas.'</p>",
+        ]
+          
     },
     {
         id: '5',
         color: '#49BBBD',
         title: 'Evaluación y Mejora de Prompts',
         description: 'Métodos para evaluar la efectividad de los prompts y estrategias para mejorar su calidad.',
+        video: '<iframe width="100%" height="500" src="https://www.youtube.com/embed/_ZvnD73m40o?si=Y2V0S2MPJyxChHZt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
+        content: [
+            "<p class='mb-6 text-uppercase secondary-color'><strong>Evaluación y Mejora de Prompts</strong></p>",
+            "<p class='mb-6'>Evaluar y mejorar los prompts es esencial para garantizar que los chatbots educativos proporcionen respuestas útiles y fomenten un aprendizaje efectivo. A continuación, se describen métodos y estrategias para evaluar la efectividad de los prompts y mejorar su calidad:</p>",
+            "<p><strong>1. Recopilación de retroalimentación de los estudiantes:</strong> Una manera efectiva de evaluar los prompts es obtener retroalimentación directa de los estudiantes que interactúan con el chatbot. Pregunta a los estudiantes si las preguntas eran claras y útiles, y si las respuestas del chatbot les ayudaron a comprender mejor el tema.</p>",
+            "<p class='mb-6'><em>Ejemplo:</em> '¿Te pareció útil la explicación proporcionada por el chatbot? ¿Qué mejorarías en las preguntas realizadas?'</p>",
+            "<p><strong>2. Análisis de las respuestas del chatbot:</strong> Revisa las respuestas generadas por el chatbot para asegurarte de que sean precisas, claras y relevantes. Identifica patrones en las respuestas incorrectas o confusas y ajusta los prompts en consecuencia.</p>",
+            "<p class='mb-6'><em>Ejemplo:</em> Si el chatbot proporciona una respuesta inexacta sobre la fotosíntesis, revisa el prompt y la base de conocimientos del chatbot para corregir la información.</p>",
+            "<p><strong>3. Pruebas A/B:</strong> Realiza pruebas A/B para comparar la efectividad de diferentes versiones de un mismo prompt. Esto implica crear dos versiones del prompt y medir cuál de ellas produce mejores resultados en términos de precisión de las respuestas y satisfacción del estudiante.</p>",
+            "<p class='mb-6'><em>Ejemplo:</em> Versión A: 'Explica el proceso de la fotosíntesis.' Versión B: 'Describe cómo las plantas convierten la luz solar en energía mediante la fotosíntesis.'</p>",
+            "<p><strong>4. Revisión por pares:</strong> Pide a otros educadores o expertos en la materia que revisen y evalúen los prompts. Sus observaciones y sugerencias pueden proporcionar valiosos insights para mejorar la calidad y claridad de los prompts.</p>",
+            "<p class='mb-6'><em>Ejemplo:</em> '¿Crees que este prompt es claro y específico? ¿Cómo podría mejorarse?'</p>",
+            "<p><strong>5. Monitoreo de métricas de desempeño:</strong> Utiliza métricas como el tiempo de respuesta del estudiante, la tasa de aciertos, y la satisfacción del usuario para evaluar la efectividad de los prompts. Estas métricas pueden ayudarte a identificar áreas que necesitan mejoras.</p>",
+            "<p class='mb-6'><em>Ejemplo:</em> 'El 80% de los estudiantes respondieron correctamente al prompt sobre la ecuación cuadrática. ¿Cómo podemos aumentar esta tasa?'</p>",
+            "<p><strong>6. Iteración y mejora continua:</strong> La evaluación de prompts debe ser un proceso continuo. Basándote en la retroalimentación y el análisis de datos, realiza ajustes y mejoras constantes a los prompts para asegurar su efectividad a lo largo del tiempo.</p>",
+            "<p class='mb-6'><em>Ejemplo:</em> 'Después de revisar las respuestas, hemos ajustado el prompt para hacerlo más claro y específico.'</p>",
+        ]
+          
     },
     {
         id: '6',
         color: '#F48C06',
         title: 'Aplicaciones Prácticas en la Educación',
         description: 'Casos de uso específicos de chatbots en diferentes áreas educativas (por ejemplo, matemáticas, idiomas, ciencias).',
+        images: [
+            {
+                title: 'Redacción de Ensayos',
+                src: '1.png'
+            },
+            {
+                title: 'Biología',
+                src: '2.png'
+            },
+            {
+                title: 'Matemáticas',
+                src: '3.jpg'
+            },
+        ]
     }
 ];

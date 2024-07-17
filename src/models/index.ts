@@ -1,3 +1,8 @@
+interface Image {
+    title: string;
+    src: string;
+}
+
 export interface LessionItemModel {
     id: string;
     title: string;
@@ -5,4 +10,5 @@ export interface LessionItemModel {
     description: string;
     video?: string;
     content?: string[];
+    images?: Image[];
 }

@@ -1,13 +1,15 @@
 <script setup lang="ts">
 // Import Vue Functions
 import { onMounted } from 'vue';
+import { useDisplay } from 'vuetify';
 import { useRouter } from 'vue-router';
 import { useLessionStore } from '@/plugins/pinia';
+import { requireImage } from '@/utils/requireImage.ts';
 
 // Import Vue Components
 import CurrentLessionHeader from '@/components/Headers/CurrentLessionHeader.vue';
 
-// Import Data
+const { mdAndDown } = useDisplay();
 const router = useRouter();
 const lessionStore = useLessionStore();
 
@@ -29,6 +31,17 @@ onMounted(() => {
             <v-col class="text-white" cols="12" v-if="lessionStore.getCurrentLessionContent && lessionStore.getCurrentLessionContent.length">
                 <div v-for="(section, index) in lessionStore.getCurrentLessionContent" :key="index">
                     <div v-html="section"></div>
+                </div>
+            </v-col>
+            <v-col cols="12" v-if="lessionStore.getCurrentLessionImages && lessionStore.getCurrentLessionImages.length">
+                <div v-for="(image, index) in lessionStore.getCurrentLessionImages" :key="index">
+                    <p class="text-uppercase text-center secondary-color mb-4 font-weight-bold text-h6">{{ image.title }}</p>
+                    <v-img 
+                        class="mb-6"
+                        :alt="`${image}-${index}`" 
+                        :src="requireImage(image.src)"
+                        :class="!mdAndDown && 'h-50 w-50 mx-auto'"
+                    />
                 </div>
             </v-col>
         </v-row>
