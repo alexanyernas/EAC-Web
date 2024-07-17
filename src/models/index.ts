@@ -11,4 +11,5 @@ export interface LessionItemModel {
     video?: string;
     content?: string[];
     images?: Image[];
+    references?: string[];
 }

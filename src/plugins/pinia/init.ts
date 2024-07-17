@@ -9,4 +9,5 @@ export const initialStateLessionItem = <LessionItemModel>{
     video: '',
     content: [],
     images: [],
+    references: []
 };

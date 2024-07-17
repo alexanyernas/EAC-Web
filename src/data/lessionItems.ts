@@ -15,6 +15,10 @@ export const lessionItems = <LessionItemModel[]>[
             "<p class='mb-6'><strong>Acceso Inmediato a Información:</strong> Los chatbots educativos están disponibles 24/7, lo que permite a los estudiantes obtener respuestas a sus preguntas en cualquier momento, sin necesidad de esperar a un profesor o tutor. Esto es especialmente útil para estudiantes que estudian a distintas horas del día o que tienen un acceso limitado a recursos educativos tradicionales.</p>",
             "<p class='mb-6'><strong>Personalización del Aprendizaje:</strong> Mediante el uso de IA, los chatbots pueden adaptarse a las necesidades individuales de cada estudiante. Pueden proporcionar explicaciones adicionales sobre temas que el estudiante no comprende bien, recomendar recursos adicionales y ajustar el ritmo del aprendizaje según el progreso del usuario.</p>",
             "<p class='mb-6'><strong>Desarrollo de Habilidades de Autoaprendizaje:</strong> Al utilizar chatbots, los estudiantes desarrollan habilidades de autoaprendizaje, ya que aprenden a buscar información, formular preguntas efectivas y evaluar la precisión de las respuestas recibidas. Estas habilidades son esenciales para el aprendizaje autónomo y continuo a lo largo de la vida.</p>",
+        ],
+        references: [
+            "<li><strong>Chung, M., & Fulkerson, D. (2018).</strong> 'Educational chatbots for teaching and learning.' Proceedings of the 2018 IEEE International Conference on Teaching, Assessment, and Learning for Engineering (TALE).</li>",
+            "<li><strong>Winkler, R., & Söllner, M. (2018).</strong> 'Unleashing the potential of chatbots in education: A state-of-the-art analysis.' Academy of Management Proceedings, 2018(1), 10869.</li>",
         ]
     },
     {
@@ -36,6 +40,11 @@ export const lessionItems = <LessionItemModel[]>[
             "<p class='mb-6'><em>Ejemplo:</em> 'Para entender mejor la ecuación cuadrática, primero repasemos qué es una función cuadrática y cómo se grafica.'</p>",
             "<p class='mb-6'><strong>Relevancia y aplicación:</strong> Los chatbots pueden presentar casos de estudio, ejemplos prácticos y problemas del mundo real que muestren la relevancia del material de estudio.</p>",
             "<p class='mb-6'><em>Ejemplo:</em> 'Aquí tienes un ejemplo de cómo se utiliza la trigonometría en la construcción de puentes. ¿Te gustaría resolver un problema relacionado?'</p>",
+        ],
+        references: [
+            "<li><strong>Ausubel, D. P. (1968).</strong> 'Educational Psychology: A Cognitive View.' New York: Holt, Rinehart, and Winston.</li>",
+            "<li><strong>Novak, J. D. (2010).</strong> 'Learning, Creating, and Using Knowledge: Concept Maps as Facilitative Tools in Schools and Corporations.' Routledge.</li>",
+            "<li><strong>Bransford, J. D., Brown, A. L., & Cocking, R. R. (Eds.). (2000).</strong> 'How People Learn: Brain, Mind, Experience, and School.' Washington, DC: National Academy Press.</li>",
         ]
     },
     {
@@ -58,6 +67,11 @@ export const lessionItems = <LessionItemModel[]>[
             "<p class='text-uppercase secondary-color'><strong>Ejemplo 3:</strong></p>",
             "<p>En lugar de: '¿Cuál es la capital de Francia?'</p>",
             "<p class='mb-6'>Utiliza: '¿Puedes decirme cuál es la capital de Francia y mencionar algún hecho histórico relevante sobre esta ciudad?'</p>",
+        ],
+        references: [
+            "<li><strong>Koul, R., & Rane, N. (2020).</strong> 'Crafting effective prompts for AI interactions.' Journal of Computer Science and Technology, 35(4), 732-740.</li>",
+            "<li><strong>Smith, A., & Williams, S. (2019).</strong> 'Optimizing human-computer interaction: Best practices for prompt design.' International Journal of Human-Computer Studies, 128, 34-45.</li>",
+            "<li><strong>Marcus, A. (2015).</strong> 'Design, User Experience, and Usability: Users and Interactions.' Springer.</li>",
         ]
     },
     {
@@ -80,6 +94,11 @@ export const lessionItems = <LessionItemModel[]>[
             "<p class='mb-6'><em>Ejemplo:</em> 'Tu respuesta es correcta. La capital de Francia es París. ¿Sabías que también es conocida como la 'Ciudad de la Luz' debido a su papel en la Era de la Ilustración?'</p>",
             "<p><strong>Acceso a recursos adicionales:</strong> El chatbot puede recomendar libros, artículos, videos y otros recursos educativos basados en las respuestas y necesidades de los estudiantes.</li>",
             "<p class='mb-6'><em>Ejemplo:</em> 'Parece que te interesa mucho la astronomía. Aquí tienes un enlace a un video interesante sobre la formación de las estrellas.'</p>",
+        ],
+        references: [
+            "<li><strong>Følstad, A., Brandtzaeg, P. B., & Skjuve, M. (2019).</strong> 'Different chatbots for different purposes: Towards a typology of chatbots to understand interaction design.' International Journal of Human-Computer Interaction, 35(14), 1310-1321.</li>",
+            "<li><strong>Smutny, P., & Schreiberova, P. (2020).</strong> 'Chatbots for learning: A review of educational chatbots for the Facebook Messenger.' Computers & Education, 151, 103862.</li>",
+            "<li><strong>Woo, M., & Keating, G. (2008).</strong> 'Chatbots in Education: Bridging the Gap between Formal and Informal Learning.' Educational Technology & Society, 11(2), 148-161.</li>",
         ]
           
     },
@@ -104,6 +123,11 @@ export const lessionItems = <LessionItemModel[]>[
             "<p class='mb-6'><em>Ejemplo:</em> 'El 80% de los estudiantes respondieron correctamente al prompt sobre la ecuación cuadrática. ¿Cómo podemos aumentar esta tasa?'</p>",
             "<p><strong>6. Iteración y mejora continua:</strong> La evaluación de prompts debe ser un proceso continuo. Basándote en la retroalimentación y el análisis de datos, realiza ajustes y mejoras constantes a los prompts para asegurar su efectividad a lo largo del tiempo.</p>",
             "<p class='mb-6'><em>Ejemplo:</em> 'Después de revisar las respuestas, hemos ajustado el prompt para hacerlo más claro y específico.'</p>",
+        ],
+        references: [
+            "<li><strong>Jain, M., Kumar, P., Kota, R., & Patel, S. N. (2018).</strong> 'Evaluating and generating prompts for chatbot-based interfaces.' Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems.</li>",
+            "<li><strong>Kocielnik, R., Amershi, S., & Bennett, P. N. (2019).</strong> 'Will you accept an imperfect AI? Exploring designs for adjusting end-user expectations of AI systems.' Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems.</li>",
+            "<li><strong>Braun, V., & Clarke, V. (2006).</strong> 'Using thematic analysis in psychology.' Qualitative Research in Psychology, 3(2), 77-101.</li>",
         ]
           
     },

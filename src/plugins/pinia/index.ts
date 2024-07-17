@@ -23,6 +23,7 @@ export const useLessionStore = defineStore('lession', {
         getCurrentLessionVideo: (state) => state.currentLession.video,
         getCurrentLessionContent: (state) => state.currentLession.content,
         getCurrentLessionImages: (state) => state.currentLession.images,
+        getCurrentLessionReferences: (state) => state.currentLession.references,
     }
 });
 

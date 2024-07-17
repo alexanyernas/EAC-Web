@@ -44,6 +44,14 @@ onMounted(() => {
                     />
                 </div>
             </v-col>
+            <v-col class="text-white" cols="12" v-if="lessionStore.getCurrentLessionReferences && lessionStore.getCurrentLessionReferences.length">
+                <p class="text-uppercase secondary-color mb-4 font-weight-bold">Referencias</p>
+                <div v-for="(section, index) in lessionStore.getCurrentLessionReferences" :key="index">
+                    <ul class="px-12">
+                        <div v-html="section"></div>
+                    </ul>
+                </div>
+            </v-col>
         </v-row>
     </v-container>
 </template>
